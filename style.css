@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+.login__plano-de-fundo {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+.login__icone {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100px;
+    height: 200px;
+
+}
+
+.login__formulario {
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login__email-label {
+    display: block;
+}
+
+.login__email-input {
+    display: block;
+    width: 80vw;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(192, 214, 214);
+}
+
+.login__senha-label {
+    display: block;
+    margin-top: 20px;
+}
+
+.login__senha-input {
+    display: block;
+    width: 80vw;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    background: rgb(192, 214, 214);
+}
+
+.login__botao {
+    width: 50vw;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(116, 41, 116);
+}
+
+.login__manter-conexao {
+    display: block;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.login__navegacao {
+    position: absolute;
+    bottom: 15vh;
+    font-size: 22px;
+    width: 100vw;
+}
+
+.login__cadastro {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(37, 37, 235);
+    position: absolute;
+    left: 15px;
+}
+
+.login__esqueceu-senha {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(37, 37, 235);
+    position: absolute;
+    right: 15px;
+}
